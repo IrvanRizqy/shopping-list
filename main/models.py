@@ -7,3 +7,5 @@ class Product(models.Model):
     price = models.IntegerField()
     description = models.TextField()
     user = models.ForeignKey(User, on_delete=models.CASCADE)
+
+# Retry push git
